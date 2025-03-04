@@ -12,19 +12,19 @@ export class Cv2AmbulanceWlList {
   private async getWaitingPatientsAsync(){
     return await Promise.resolve(
       [{
-          name: 'Jožko Púčik',
+          name: 'Alexander The Great',
           patientId: '10001',
           estimatedStart: new Date(Date.now() + 65 * 60),
           estimatedDurationMinutes: 15,
           condition: 'Kontrola'
       }, {
-          name: 'Bc. August Cézar',
+          name: 'Alexander The ok',
           patientId: '10096',
           estimatedStart: new Date(Date.now() + 30 * 60),
           estimatedDurationMinutes: 20,
           condition: 'Teploty'
       }, {
-          name: 'Ing. Ferdinand Trety',
+          name: 'Alexander The Absolute Worst',
           patientId: '10028',
           estimatedStart: new Date(Date.now() + 5 * 60),
           estimatedDurationMinutes: 15,
