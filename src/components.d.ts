@@ -30,6 +30,8 @@ export namespace Components {
         "basePath": string;
     }
     interface SkAmbulanceWlEditor {
+        "ambulanceId": string;
+        "apiBase": string;
         "entryId": string;
     }
 }
@@ -121,6 +123,8 @@ declare namespace LocalJSX {
         "basePath"?: string;
     }
     interface SkAmbulanceWlEditor {
+        "ambulanceId"?: string;
+        "apiBase"?: string;
         "entryId"?: string;
         "onEditor-closed"?: (event: SkAmbulanceWlEditorCustomEvent<string>) => void;
     }
