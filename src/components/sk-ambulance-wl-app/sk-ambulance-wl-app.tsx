@@ -37,6 +37,7 @@ export class SkAmbulanceWlApp {
   }
 
   render() {
+    console.debug("sk-ambulance-wl-app.render() - path: %s", this.relativePath);
     let element = "list"
     let entryId = "@new"
   
